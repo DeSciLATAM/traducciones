@@ -1,0 +1,59 @@
+Traducción del siguiente artículo de Molecule: https://www.molecule.to/blog/molecules-biopharma-ip-nfts-a-technical-description
+
+Descripción técnica de las IP-NFTs en biofarma
+
+En todo el mundo, las investigaciones en biofarma en etapa temprana sufren de un crónico subfinanciamiento,
+lo que lleva muchas veces a investigación descontinuada en los inicios del ciclo de desarrollo farmacéutico.
+Esto sucede tan a menudo que la academia acuñó un término para la fase de investigación previa a los ensayos
+clínicos: "Valle de la Muerte". 
+
+Los investigadores luchan por adquirir financiamiento debido a tres distintas razones: 
+1_ Falta de visibilidad y conección con inversores relevantes: a los investigadores les cuesta conectar y
+recibir fondos de inversores privados.
+2_ Complejidad legal de acuerdos de Propiedad Intelectual: acuerdos como los de licencia relacionados con la
+Propiedad Intelectual previa a la patente, y una vez establecida la misma, son complejos y muchas veces 
+precisan de apoyo legal.
+3_ Dificultad en determinar el valor de los activos biofarmacéuticos en etapa inicial: tanto financiadores
+como investigadores tienen problemas determinando el valor de investigaciones en etapa temprana.
+
+Los NFTs crearon una revolución sin precedentes en el espacio creativo, repensando los derechos
+de autor, las regalías, la propiedad intelectual, etc. Nosotros creemos que también va a ser fundamental en
+resolver los problemas enumerados arriba.
+
+En este artículo vamos a enfocarnos en la primera implementación técnica de una IP-NFT en biofarmacéutica,
+el cual está construido sobre varios conceptos que otros pensadores web3 influyentes crearon en el pasado.
+Por ejemplo, si te interesa cómo las Propiedades Intelectuales generales pueden ser combinadas con NFTs,
+eche un vistazo a la serie de tres partes de Trent McConaghy:
+https://blog.oceanprotocol.com/nfts-ip-3-combining-erc721-erc20-b69ea659115e
+
+
+Complejidad legal de acuerdos de Propiedad Intelectual
+
+Cuando examinamos el mercado transaccional de las propiedades intelecuales en biofarmacéutica, hay un
+aspecto que se vuelve inmediatamente obvio: las Propiedades Intelectuales no se venden en un simple acuerdo
+de venta como es el caso de las casas, los autos y otros objetos físicos. Las transacciones que involucran
+a las Propiedades Intelectuales en biofarmacéutica siempre diferencian entre los derechos específicos y los
+términos relacionados de la compra. Por lo tanto, es común usar acuerdos de licencia para estructurar los 
+términos que rodean a la Propiedad Intelectual. Los términos pueden incluir Exlusividad, Territorio Aplicable,
+Propiedad Intelectual relacionada, Derechos de Concesión, y muchos más. Esto es relevante para la
+implementación técnica de las transacciones de IP-NFTs, ya que nunca se venderá ninguna Propiedad Intelectual
+biofarmacéutica sin negociar y determinar los términos relacionados con la transacción.
+
+Consideración Importante cuando se diseña la infraestructura de una IP-NFT
+
+Varios aspectos son necesarios ser considerados cuando se diseña y se implementa la infraestructura de una 
+IP-NFT. Y ya que dichos aspectos varían dependiendo de la Propiedad Intelectual, vamos a resaltar los
+que conciernen a las biofarmacéuticas.
+
+a) Privacidad: Muchos activos biofarmacéuticos en etapa temprana no han presentado solicitudes de patentes.
+
+
+
+
+
+
+
+
+
+
+
